@@ -1,0 +1,20 @@
+Description: Correct Intel AC9560 CNVi Wi-Fi interface on Jasper Lake
+Intel AC9560 CNVi Wi-Fi on Jasper Lake is mislabeled as AX201 before this
+patch.
+Forwarded: not-needed
+Origin: upstream, https://github.com/pciutils/pciids/commit/7af0f1f503389f0258766a1727a7dd1d2bb02771
+Bug-Ubuntu: https://bugs.launchpad.net/ubuntu/+source/pci.ids/+bug/2100918
+Author: Yao Wei <yao.wei@canonical.com>
+
+--- a/pci.ids
++++ b/pci.ids
+@@ -32104,7 +32104,8 @@
+ 	4de0  Management Engine Interface
+ 	4de8  Serial IO I2C Host Controller
+ 	4de9  Serial IO I2C Host Controller
+-	4df0  Wi-Fi 6 AX201 160MHz
++	4df0  Jasper Lake PCH CNVi WiFi
++		8086 4030  Wireless-AC 9560 160MHz
+ 	4e03  Dynamic Tuning service
+ 	4e19  JasperLake IPU
+ 	4e55  JasperLake [UHD Graphics]

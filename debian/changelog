@@ -1,3 +1,10 @@
+pci.ids (0.0~2022.01.22-1ubuntu0.1) jammy; urgency=medium
+
+  * Correct the labeling of Intel Wireless-AC 9560 CNVi Wi-Fi interface on
+    Jasper Lake platforms. (LP: #2100918)
+
+ -- Yao Wei (魏銘廷) <yao.wei@canonical.com>  Thu, 06 Mar 2025 17:53:26 +0100
+
 pci.ids (0.0~2022.01.22-1) unstable; urgency=medium
 
   * New upstream release.

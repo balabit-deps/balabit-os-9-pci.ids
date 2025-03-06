@@ -1,7 +1,8 @@
 Source: pci.ids
 Section: admin
 Priority: optional
-Maintainer: Guillem Jover <guillem@debian.org>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Guillem Jover <guillem@debian.org>
 Homepage: https://pci-ids.ucw.cz/
 Standards-Version: 4.5.1
 Rules-Requires-Root: no
